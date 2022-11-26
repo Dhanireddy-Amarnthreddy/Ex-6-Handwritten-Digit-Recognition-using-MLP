@@ -12,6 +12,7 @@ Anaconda – Python 3.7 Installation / Google Colab /Jupiter Notebook
 
 
 ### Program:
+```
 import numpy as np
 import pandas as pd
 from matplotlib import pyplot as plt
@@ -120,7 +121,7 @@ test_prediction(2, W1, b1, W2, b2)
 test_prediction(3, W1, b1, W2, b2)
 dev_predictions = make_predictions(X_dev, W1, b1, W2, b2)
 get_accuracy(dev_predictions, Y_dev)
-
+```
 ### Output :
 ![image](https://user-images.githubusercontent.com/94165103/204094787-0e4cbde0-74b0-450f-a93c-4871a2879d97.png)
 ![image](https://user-images.githubusercontent.com/94165103/204094817-13d8939c-3d2d-4887-8226-a2fea1857450.png)
