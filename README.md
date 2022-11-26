@@ -9,10 +9,10 @@ Anaconda – Python 3.7 Installation / Google Colab /Jupiter Notebook
 
 
 ## Algorithm :
-1.Import the libraries and load the dataset.
+1. Import the libraries and load the dataset.
 
-2.Preprocess the data.
-*The image data cannot be fed directly into the model so we need to perform some operations and process the data to make it ready for our neural network.
+2. Preprocess the data.
+ *The image data cannot be fed directly into the model so we need to perform some operations and process the data to make it ready for our neural network.
 
 3. Create the model.Now we will create our CNN model in Python data science project. A CNN model generally consists of convolutional and pooling layers.              
 4. Train the model.The model.fit() function of Keras will start the training of the model. It takes the training data, validation data, epochs, and batch size.           
