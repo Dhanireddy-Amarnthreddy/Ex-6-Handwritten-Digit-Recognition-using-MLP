@@ -9,21 +9,13 @@ Anaconda – Python 3.7 Installation / Google Colab /Jupiter Notebook
 
 
 ## Algorithm :
-1.Import the necessary libraries of python. 
-
-2.In the end_to_end function, first calculate the similarity between the inputs and the peaks. 
-
-3.Then, to find w used the equation Aw= Y in matrix form. 
-
-4.Each row of A (shape: (4, 2)) consists of index[0]: similarity of point with peak1 index[1]:
-similarity of point with peak2 index[2]: 
-
-5.Bias input (1) Y: Output associated with the input (shape: (4, )) W is calculated using the same equation we use to solve linear regression using a closed solution (normal equation). 
-
-6.This part is the same as using a neural network architecture of 2-2-1, 2 node input (x1, x2) (input layer) 2 node (each for one peak) (hidden layer) 1 node output (output layer) To find the weights for the edges to the 1-output unit. 
-
-7.Weights associated would be: edge joining 1st node (peak1 output) to the output node edge joining 2nd node (peak2 output) to the output node bias edge.
-
+1.Import the libraries and load the dataset.
+2.Preprocess the data.
+*The image data cannot be fed directly into the model so we need to perform some operations and process the data to make it ready for our neural network.
+3. Create the model.Now we will create our CNN model in Python data science project. A CNN model generally consists of convolutional and pooling layers.
+4. Train the model.The model.fit() function of Keras will start the training of the model. It takes the training data, validation data, epochs, and batch size.
+5. Evaluate the model.We have 10,000 images in our dataset which will be used to evaluate how good our model works. 
+6. Create GUI to predict digits.Now for the GUI, we have created a new file in which we build an interactive window to draw digits on canvas and with a button, we can recognize the digit.
 ### Program:
 
 #### Developed by:D.Amarnath
